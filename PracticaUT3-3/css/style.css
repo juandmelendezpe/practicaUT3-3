@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+:root{
+    --color-fondo: #151549;
+    --color-texto-header:#fff;
+    --color-fondo-footer: #bdbcbc;
+    --color-hover-menu: #468a45;
+    --color-redes :#035715;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    width: 100%;
+}
