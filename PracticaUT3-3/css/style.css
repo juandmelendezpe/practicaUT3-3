@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 :root{
-    --color-fondo: #151549;
+    --color-fondo: #254bc7;
     --color-texto-header:#fff;
     --color-fondo-footer: #bdbcbc;
     --color-hover-menu: #468a45;
@@ -14,4 +14,34 @@ body{
     padding: 0px;
     font-family: sans-serif;
     width: 100%;
+    height: 1000px;
+}
+header{
+    background-color: var(--color-fondo);
+    height: 65px;
+    }
+
+
+.login{
+    width: 40%;
+    height: 60px;
+    float: right ;
+    color: var(--color-texto-header);
+    font-size: .8rem;
+}
+#correo{
+    width: 40%;
+    height: 25%;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+#contraseña{
+    width: 40%;
+    height: 25%;
+    float: right;
+}
+.login .img{
+    margin-top: 5px auto;
+    padding: auto;
 }
