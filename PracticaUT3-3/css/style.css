@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 :root{
-    --color-fondo: #254bc7;
+    --color-fondo: rgb(49, 58, 115);
     --color-texto-header:#fff;
     --color-fondo-footer: #bdbcbc;
     --color-hover-menu: #468a45;
@@ -18,7 +18,7 @@ body{
 }
 header{
     background-color: var(--color-fondo);
-    height: 65px;
+    height: 70px;
     }
 
 
@@ -29,22 +29,36 @@ header{
     color: var(--color-texto-header);
     font-size: .8rem;
 }
-#correo{
-    font-size: 0.8rem;
-    width: 40%;
-    height: 25%;
-    float: left;
-    padding: 5px;
-    margin: 5px;
+table{
+    width: 33%;
 }
-#contraseña{
-    font-size: 0.8rem;
-    width: 40%;
-    height: 25%;
+.login input{
+    width: 15%;
+    height: 40%;
     float: left;
-    padding: 5px;
-    margin: 5px;
+    display: block;
+    position: relative;
+    color: #254bc7;
 }
+
+table.t1, table.t2 th{
+    margin-top: 10px;
+    float: left;
+    text-align: left;
+}
+
+table.t1 td{
+    
+        border: 1px solid rgb(190,190,190);
+        padding: 10px 90px;
+        background-color: #fff;
+} table.t2 td {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 90px;
+    background-color: #fff;
+    
+}
+
 .img{
     margin: 35px ;
     padding: 15px ;
