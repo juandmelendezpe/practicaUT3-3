@@ -2,11 +2,9 @@
     box-sizing: border-box;
 }
 :root{
-    --color-fondo: rgb(49, 58, 115);
+    --bg--color: #2e4b81;
     --color-texto-header:#fff;
-    --color-fondo-footer: #bdbcbc;
-    --color-hover-menu: #468a45;
-    --color-redes :#035715;
+  
 
 }
 body{
@@ -17,91 +15,57 @@ body{
     height: auto;
 }
 header{
-    background-color: var(--color-fondo);
+    background-color: var(--bg--color);
     height: 70px;
     }
-
-
-.login{
+    /*<<<<<<<<<<<<<<<---------Header*/
+.container{
+height: 0 auto;
+width: 80%;
+}
+.header-logo{
     width: 40%;
     height: 60px;
-    float: right ;
-    color: var(--color-texto-header);
-    font-size: .8rem;
+    float:left;
+  
 }
-table{
-    width: 33%;
+.header-login{
+    width: 60%;
+    height: 60px;
+    font-size: 0.8rem;
+    color: #fff;
+   
 }
-.login input{
-    width: 15%;
-    height: 40%;
+/*<<<<<<<<<<<<<--------Main*/
+main{
+    background-image: linear-gradient(to botton,var);
+}
+.main-imagen{
     float: left;
-    display: block;
-    position: relative;
-    color: #254bc7;
+    width: 50%;
 }
-
-table.t1, table.t2 th{
-    margin-top: 10px;
+.main-imagen img {
+    width: 100%;
+}
+.main-section{
+    width: 50%;
+    height: 300px;
     float: left;
-    text-align: left;
 }
-
-table.t1 td{
-    
-        border: 1px solid rgb(190,190,190);
-        padding: 10px 90px;
-        background-color: #fff;
-} table.t2 td {
-    border: 1px solid rgb(190,190,190);
-    padding: 10px 90px;
-    background-color: #fff;
-    
-}
-
-.img{
-    margin: 35px ;
-    padding: 15px ;
-    height: 30px;
-    width: 20%;
-    margin-left: 90px;
-}
-#section{
-    background-color: aliceblue;
+.main-formRegistrarte{
+    width: 50%;
+    height: 300px;
+    float: right;
 
 }
- .banner1{
-    border: 1px solid var(--color-redes);
-    width: 51%;
-    height: 400px;
-    float: left;
-    background-color: aliceblue;
-    text-align: center;
- }
- .banner1 p{
-    font-size: 1.5rem;
-    font: bold;
-    color: var(--color-fondo);
-    text-align: center;
- }
- .banner1 img{
-    height: 45%;
-    display: block;
-    margin-left: 100px;
- }
- .formRegistrarte{
-    border: 1px solid var(--color-fondo);
-    width: 49%;
-    height: 400px;
-    float:right;
-    background-color: aliceblue;
- }
- .ft{
+/*<<<<<<<<<<----FOOTER----*/
+footer{
     color: #254bc7;
     float: left;
     width: 100%;
     height: 100px;
  }
+
 
  
 
