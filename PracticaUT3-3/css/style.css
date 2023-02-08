@@ -42,8 +42,10 @@ header {
 
 .header-login {
     float: right;
-    width: 60%;
+    width: 50%;
     font-size: .9rem;
+    margin-left: 30px;
+    padding: 10px;
 }
 
 .header-logo img {
@@ -88,7 +90,26 @@ main {
 
 .main-signup {
     float: right;
-    width: 45%;
+    width: 35%;
+}
+.main-signup input[id="name"] {
+    height: 30px;
+    }
+.main-signup input[id="surname"] {
+        height: 30px;
+        }
+.main-signup input[id="user"] {
+width: 85%;
+height: 30px;
+}
+.main-signup input[id="pass"] {
+    width: 85%;
+    height: 30px;
+}
+.main-signup .condiciones{
+    font-size: 0.7rem;
+    font-weight: bold;
+
 }
 
 .main-image img {
@@ -99,6 +120,9 @@ main {
     color: var(--main-image-text-color);
     font-weight: bold;
     font-size: 1.1rem;
+}
+footer p{
+    color: var(--bg-color);
 }
 
 
