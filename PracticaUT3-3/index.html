@@ -5,68 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Facebook</title>
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="header-logo">
-                <img src="img/logo.png" alt="logo">
-            </div>
-            <div class="header-login">
-                <form action="#" method="post">
-                    <table>
-
-                        <tr>
-                            <th>Nombre de Usuario</th>
-                        </tr>
-                        <td>
-                            <input type="text" name="user" id="user"/>
-                        </td>
-                        <tr>
-                            <th>Contraseña</th>
-                        </tr>
-                        <td>
-                            <input type="text" name="user" id="user"/>
-                        </td>
-                    </table>
-                </form>
-            </div>
+      <div class="container">
+        <div class="header-logo">
+          <img src="img/logo.png" alt="Logo Facebook" />
+        </div>
+        <div class="header-login">
+          <form action="#" method="post">
+            <table>
+              <tr>
+                <td>Correo electrónico o teléfono</td>
+                <td colspan="2">Contraseña</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" name="user" id="user" />
+                </td>
+                <td>
+                  <input type="password" name="pass" id="pass" />
+                </td>
+                <td>
+                  <input type="submit" value="Entrar" />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td colspan="2">
+                  <a href="#">¿Has olvidado los datos de la cuenta?</a>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div class="cb"></div>
+      </div>
     </header>
     <main>
-        <div class="container">
-
-            <section class="main-section">
-                    <p>
-                    Facebook te ayuda a comunicarte y compartir<br>
-                     con las personas 
-                    que forman parte de tu vida
-                </p>
-                <img src="img/redgente.png"
-                 alt="imagen de personas de Facebook"/>
-            </section>
-            <section class="main-formRegistrarte">
-                <h1>Registrarte</h1>
-                <h1>Es gratis y sera para siempre</h1>.
-                <form>
-                    
-                </form>
-                
-                        <p>
-                            Al hacer clic en Registrarte, aceptas nuestras 
-                            Condiciones. Obtén más información sobre cómo
-                            recopilamos, usamos y compartimos tu información 
-                            en la Política de datos, así como el uso que hacemos
-                            de las cookies y tecnologías similares en nuestra Política de cookies. Es posible que te enviemos notificaciones
-                            por SMS que podrás desactivar cuando quieras.
-                        </p>
+      <div class="container">
+        <section class="main-image">
+          <p>
+            Facebook te ayuda a comunicarte y compartir <br />
+            con las personas que forman parte de tu vida
+          </p>
+          <img
+            src="img/redgente.png"
+            alt="Imagen de red de personas de Facebook"
+          />
         </section>
-        </div>
+        <section class="main-signup">
+          <h1>Registrarte</h1>
+          <p>Es gratis y lo será para siempre.</p>
+          <form action="#" method="post">
+            <p>
+              <input type="text" name="name" id="name" placeholder="Nombre" />
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                placeholder="Apellidos"
+              />
+            </p>
+            <p>
+              <input
+                type="text"
+                name="user"
+                id="user"
+                placeholder="Número de móvil o correo electrónico"
+              />
+            </p>
+            <p>
+              <input
+                type="password"
+                name="pass"
+                id="pass"
+                placeholder="Contraseña nueva"
+              />
+            </p>
+            <p>Fecha de nacimiento</p>
+            <div>
+              <input type="date" name="bithdate" id="bithdate" />
+              <a href="#"
+                >¿Por qué tengo que facilitar mi fecha de nacimiento?</a
+              >
+            </div>
+            <p>
+              <input type="radio" name="gender" id="gender" value="f" /> Mujer
+              <input type="radio" name="gender" id="gender" value="m" /> Hombre
+            </p>
+            <p>
+              Al hacer clic en Registrarte, aceptas nuestras
+              <a href="#">Condiciones</a>. Obtén más información sobre cómo
+              recopilamos, usamos y compartimos tu información en la
+              <a href="#">Política de datos</a> , así como el uso que hacemos de
+              las cookies y tecnologías similares en nuestra
+              <a href="#">Política de cookies</a> . Es posible que te enviemos
+              notificaciones por SMS que podrás desactivar cuando quieras.
+            </p>
+            <input type="submit" value="Registrarte" />
+            <p>
+              <a href="#">Crea una página</a> para un personaje público, un
+              grupo de música o un negocio.
+            </p>
+          </form>
+        </section>
+        <div class="cb"></div>
+      </div>
     </main>
-</body>
-<footer >
-    <p>
-        Español (España) Catala English (US) Francais (France) Romana Italiano Galego Deutsch Portugues (Brasil) العربية हिन्दी
-    </p>
-</footer>
+    <footer></footer>
+  </body>
 </html>
