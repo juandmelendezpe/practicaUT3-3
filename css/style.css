@@ -99,11 +99,11 @@ main {
         height: 30px;
         }
 .main-signup input[id="user"] {
-width: 85%;
+width: 95%;
 height: 30px;
 }
 .main-signup input[id="pass"] {
-    width: 85%;
+    width: 95%;
     height: 30px;
 }
 .main-signup .condiciones{
