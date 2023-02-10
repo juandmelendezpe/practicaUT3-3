@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #3e5b9a;
+    --text-color: #FFF;
+    --header-link-color: #8fabc5;
+    --header-bg-submit-color: #4267b2;
+    --header-bor-submit-color: #29487d;
+    --main-grad-bg-color: #d3d8e8;
+    --main-image-text-color: #0e385f;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.cb {
+    clear: both;
+}
+
+/*Header*/
+
+header {
+    background-color: var(--bg-color);
+}
+
+
+.header-logo {
+    float: left;
+    width: 40%;
+}
+
+.header-login {
+    float: right;
+    width: 50%;
+    font-size: .9rem;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.header-logo img {
+    margin-top: 20px;
+}
+
+.header-login table {
+    color: var(--text-color);
+}
+
+.header-login td {
+    padding: 3px 10px;
+}
+
+.header-login input[type="text"],
+.header-login input[type="password"] {
+    width: 100%;
+}
+
+.header-login a {
+    text-decoration: none;
+    color: var(--header-link-color);
+}
+
+.header-login input[type="submit"] {
+    background-color: var(--header-bg-submit-color);
+    border: 1px solid var(--header-bor-submit-color);
+    color: var(--text-color);
+}
+
+/*Main*/
+
+main {
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, var(--text-color), var(--main-grad-bg-color));
+}
+
+.main-image {
+    float: left;
+    width: 55%;
+}
+
+.main-signup {
+    float: right;
+    width: 35%;
+}
+.main-signup input[id="name"] {
+    height: 30px;
+    }
+.main-signup input[id="surname"] {
+        height: 30px;
+        }
+.main-signup input[id="user"] {
+width: 85%;
+height: 30px;
+}
+.main-signup input[id="pass"] {
+    width: 85%;
+    height: 30px;
+}
+.main-signup .condiciones{
+    font-size: 0.7rem;
+    font-weight: bold;
+
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.main-image p {
+    color: var(--main-image-text-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+footer p{
+    color: var(--bg-color);
+}
+
+
